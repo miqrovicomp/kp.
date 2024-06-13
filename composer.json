@@ -1,0 +1,16 @@
+{
+    "name": "safi/chatpter1",
+    "autoload": {
+        "psr-4": {
+            "Safi\\Chatpter1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "safiuddin"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^2.1"
+    }
+}
