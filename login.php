@@ -4,6 +4,72 @@
 <head>
 <link rel="stylesheet" href="assets/css/login.css">
 </head>
+<style>
+ 
+ body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f5f5f5; /* Warna latar belakang untuk kontras */
+    }
+
+    .kotak_login {
+        width: 300px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form_login {
+        width: 91%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .tombol_login {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #007bff;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .tombol_login:hover {
+        background-color: #0056b3;
+    }
+
+    /* CSS untuk mobile */
+    @media only screen and (max-width: 600px) {
+        .kotak_login {
+            width: 90%;
+        }
+    }
+
+    /* CSS untuk tata letak mobile ukuran 1080x2400 */
+    @media (max-width: 1080px) {
+      .kotak_login {
+        width: 80%; /* Sesuaikan lebar kotak login */
+        margin: 0 auto; /* Pusatkan kotak login */
+      }
+      
+      .form_login {
+        width: 100%; /* Sesuaikan lebar input form */
+        margin-bottom: 10px; /* Berikan jarak antar input */
+      }
+
+      .tombol_login {
+        width: 100%; /* Sesuaikan lebar tombol login */
+      }
+    }
+   
+</style> 
 <body>
  
 
@@ -37,7 +103,6 @@
 			<br/>
 			<br/>
 		</form>
-		
 	</div>
  
 
